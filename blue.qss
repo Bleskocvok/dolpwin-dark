@@ -1,0 +1,32 @@
+
+
+QWidget {
+    color: white;
+    background-color: rgb(72, 72, 72);
+    background-color: #001f5b;
+}
+
+QScrollBar {
+    background: #35b3fc;
+}
+
+/* Context menu buttons. */
+QMenu::item:selected {
+    background: #35b3fc;
+}
+
+/* Makes some cickable things in the configuration menu look nicer. */
+QAbstractButton:hover {
+    background-color: rgb(66, 66, 66);
+}
+QAbstractButton:pressed {
+    background-color: black;
+}
+
+/* Top menu bar buttons */
+QToolButton:hover {
+    background-color: rgb(66, 66, 66);
+}
+QToolButton:active {
+    background-color: black;
+}
