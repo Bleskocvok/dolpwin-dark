@@ -10,7 +10,11 @@ Tested with build [Build #2022 (Sep 8, 2023 10:42:00 PM)](https://binary-factory
 2. Launch `Dolphin` as
 
 ```powershell
-.\dolphin.exe --stylesheet C:\Users\USER\dolpwin-dark\grey.qss --platform windows:darkmode=2
+dolphin.exe --stylesheet C:\Users\USER\dolpwin-dark\grey.qss --platform windows:darkmode=2
 ```
 
 Make sure to substitute `USER` for your actual username.
+
+## Screenshot
+
+![dolphin with dark theme](grey.png)
