@@ -1,0 +1,41 @@
+/* Almost everything is QWidget, so set white text on dark background.
+ * This however doesn't affect the style of filename labels or
+ * anything to do with file icons. */
+QWidget {
+    color: white;
+    background-color: rgb(72, 72, 72);
+}
+
+QScrollBar {
+    background: rgb(42, 42, 42);
+}
+
+/* Context menu buttons. */
+QMenu::item:selected {
+    background: black;
+}
+
+/* Makes some cickable things in the configuration menu look nicer. */
+QAbstractButton:hover {
+    background-color: rgb(66, 66, 66);
+}
+QAbstractButton:pressed {
+    background-color: black;
+}
+
+/* Top menu bar buttons */
+QToolButton {
+    background-color: rgb(58, 58, 58);
+}
+QToolButton:hover {
+    background-color: rgba(30, 30, 30, 0.505);
+}
+QToolButton:disabled {
+    background-color: rgb(126, 126, 126);
+}
+QToolButton:checked {
+    background-color: black;
+}
+QToolButton:selected {
+    background-color: rgb(31, 28, 99);
+}
